@@ -40,5 +40,5 @@ export const Status = styled.span`
   height: 10px;
   border-radius: 50%;
   margin-left: 20px;
-  background-color: ${({ isOnline }) => (isOnline ? '#f30505' : '#55ba09')};
+  background-color: ${({ isOnline }) => (isOnline ? '#55ba09' : '#f30505')};
 `;
