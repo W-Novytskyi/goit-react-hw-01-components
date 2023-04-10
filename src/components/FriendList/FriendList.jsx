@@ -10,7 +10,7 @@ export default function FriendList({ items }) {
           <FriendListItem
             avatar={item.avatar}
             name={item.name}
-            isOnline={item.isOnLine}
+            isOnline={item.isOnline}
           />
         </Card>
       ))}
